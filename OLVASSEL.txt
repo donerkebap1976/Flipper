@@ -1,0 +1,11 @@
+APK KÉSZÍTÉSE (kb. 5 perc, ingyenes)
+
+1. Hozz létre egy ingyenes fiókot a github.com oldalon, majd egy új, üres repót (New repository).
+2. Töltsd fel ennek a zipnek a TARTALMÁT a repóba (Add file > Upload files).
+   Fontos: a .github mappának is fel kell kerülnie.
+3. Nyisd meg az Actions fület, válaszd az "APK építés" munkafolyamatot, és kattints a Run workflow gombra.
+4. 3-5 perc múlva a lefutott futtatás alján, az Artifacts résznél letöltheted a flipper-apk fájlt.
+5. Csomagold ki, a belsejében lévő app-debug.apk a telepíthető APK.
+6. Telefonon engedélyezd az ismeretlen forrásból való telepítést, és nyisd meg az APK-t.
+
+A játék frissítéséhez cseréld ki a www/index.html fájlt a repóban, az APK újraépül.
